@@ -14,7 +14,6 @@ const persistedUserReducer = persistReducer(userPresistConfig, userReducer);
 const store = configureStore({
   reducer: {
     userInfo: persistedUserReducer,
-    testUser: userReducer,
   },
 });
 

@@ -48,7 +48,7 @@ export const Header = () => {
                 <Link className="nav-link" to="/signin">
                   <GiEntryDoor /> Sign in
                 </Link>
-                <Link className="nav-link" to="/new-admin">
+                <Link className="nav-link" to="/signup">
                   <ImExit /> Sign up
                 </Link>
               </>
